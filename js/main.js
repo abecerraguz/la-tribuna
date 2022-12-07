@@ -77,9 +77,26 @@ $(function(){
 	});
 
 	// Funcion menu 
-	$('#slide-out-left li').click((e)=>{
+	$(this).click((e)=>{
 		e.preventDefault();
-		$(this).find('.submenu').slideToggle();;
+		let id = e.target.id
+		$(`#${id}`).parent().find('.submenu').slideToggle();
 	})
+
+	$("#dailyNews").hide();
+	$(window).scroll(function () {
+		if ($(this).scrollTop() > 200) {
+			$('#dailyNews').fadeIn();
+
+		} else {
+			$('#dailyNews').fadeOut();
+		}
+	});
+
+	// $('#toTop').click(function () {
+	// 	$('body,html').animate({scrollTop: 0}, 800);
+	// 	// return false;
+	// });
+
 
 });
