@@ -1,19 +1,4 @@
-@font-face {
-    font-family: 'Noto Sans Display';
-    src: url('../font/NotoSansDisplay-Light.woff') format('woff2'),
-        url('../font/NotoSansDisplay-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Noto Sans Display';
-    src: url('../font/NotoSansDisplay-Regular.woff2') format('woff2'),
-        url('../font/NotoSansDisplay-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
+
 
 /* ------------------------------
   Import Google Web Font
