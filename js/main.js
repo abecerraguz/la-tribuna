@@ -34,32 +34,7 @@ $(function(){
 		}
 	})
 
-	// testimonial
-// 	$("#popular-post-owl").owlCarousel({
-
-// 		slideSpeed : 300,
-// 		paginationSpeed : 400,
-// 		items: 2,
-// 		itemsMobile: 2,
-// 		navigation: true,
-// 		responsiveClass:true,
-// responsive:{
-//         425:{
-//             items:1,
-//             nav:true
-//         },
-//         600:{
-//             items:3,
-//             nav:false
-//         },
-//         1000:{
-//             items:5,
-//             nav:true,
-//             loop:false
-//         }
-//     }
-// 	})
-
+	
 	// select
 	$('select').material_select();
 
@@ -78,7 +53,7 @@ $(function(){
 
 	// Funcion menu 
 	$(this).click((e)=>{
-		e.preventDefault();
+		// e.preventDefault();
 		let id = e.target.id
 		$(`#${id}`).parent().find('.submenu').slideToggle();
 	})
