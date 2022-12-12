@@ -2281,7 +2281,7 @@ mark {
 
 .headerCategorySection h4 {
 	display: inline-block;
-    padding: 0.5rem 1.2rem 0 1.2rem;
+    padding: 0.5rem 1.2rem 0 0;
     margin: 0 0 0 1.6rem;
     border-radius: 0;
 	color: #000;
