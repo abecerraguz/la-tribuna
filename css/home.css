@@ -1369,8 +1369,8 @@ textarea.materialize-textarea:focus:not([readonly]) {
 	border-radius: 3px;
 }
 .section .article-text-container .category a{
-	color: #fff;
-	text-decoration: none;
+    color: #000;
+    text-decoration: none;
 }
 .section .article-text-container .category{
     display: block;
